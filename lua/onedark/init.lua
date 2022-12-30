@@ -38,7 +38,7 @@ function M.toggle()
     else
         vim.o.background = 'dark'
     end
-    vim.api.nvim_command('colorscheme onedark')
+    vim.api.nvim_command('colorscheme thesynthax-dark')
 end
 
 local default_config = {
@@ -97,7 +97,7 @@ function M.setup(opts)
 end
 
 function M.load()
-  vim.api.nvim_command('colorscheme onedark')
+  vim.api.nvim_command('colorscheme thesynthax-dark')
 end
 
 return M
